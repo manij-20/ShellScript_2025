@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "enter the number"
+read num
+if (( $num % 2 == 0 ))
+then
+	echo "The given number $num is even"
+else
+	echo "The given number $num is odd"
+fi	
+
+
